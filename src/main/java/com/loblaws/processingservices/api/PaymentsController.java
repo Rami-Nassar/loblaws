@@ -86,5 +86,6 @@ public class PaymentsController {
 		
 		ResponseEntity<List<PaymentModel>> output = new ResponseEntity<List<PaymentModel>>(response, status);		
 		return output;		
+		
     }
 }
